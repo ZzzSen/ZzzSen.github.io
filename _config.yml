@@ -13,9 +13,9 @@ show_sidebar: false        # Hide sidebar
 show_minimal: false        # Keep normal layout
 
 # Menu
-navigation:
-  - {file: "archive.html", sidebaricon: home}
-  - {file: "README.md", sidebaricon: address-card}
+# navigation:
+#   - {file: "archive.html", sidebaricon: home}
+#   - {file: "README.md", sidebaricon: address-card}
 
 # External links (shown at the top right)
 external:
