@@ -1,34 +1,33 @@
-title: "Blog Title"
-author: "Blog Author"
-description: "My blog"
+title: "Yusen's Blog"
+author: "Yusen Zhang"
+description: "Recording research, design, and life"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
-date_format: "%B %d, %Y"
+date_format: "%Y-%m-%d"
 
 # Layout
+show_excerpts: true        # Show article excerpts on the homepage
+show_frame: true           # Display a frame on large screens
+show_sidebar: false        # Hide sidebar
+show_minimal: false        # Keep normal layout
 
-show_excerpts: true             # show article excerpts instead of archive list on the home page
-show_frame: true                # display a grey frame on large screens
-show_sidebar: false             # show a sidebar instead of the usual header
-show_minimal: false             # remove all clutter
-
-#show_frame: "/assets/images/background.svg"
-
-# Menu                          # for available icons see https://fontawesome.com/v5/icons/
-
-navigation:                     # accepts {file, title, url, icon, sidebaricon}
+# Menu
+navigation:
   - {file: "archive.html", sidebaricon: home}
   - {file: "README.md", sidebaricon: address-card}
 
-external:                       # accepts {file, title, url, icon, sidebaricon}
-  - {title: Mail, icon: envelope, url: "mailto:author@example.com"}
-  - {title: Github, icon: github, url: "https://github.com/niklasbuschmann/contrast"}
+# External links (shown at the top right)
+external:
+  - {title: Email, icon: envelope, url: "mailto:yusen@example.com"}
+  - {title: Github, icon: github, url: "https://github.com/yusenzhang"}  # updated link
   - {title: Subscribe, icon: rss, url: "/feed.xml"}
 
+# Comments (currently disabled, you can enable later)
 comments:
-#  disqus_shortname: ""         # see https://disqus.com
-#  isso_domain: ""              # see https://isso-comments.de
+#  disqus_shortname: ""
+#  isso_domain: ""
 
+# Plugins
 plugins:
  - jekyll-feed
