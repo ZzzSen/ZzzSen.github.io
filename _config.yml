@@ -1,6 +1,6 @@
-title: "Yusen's Blog"
+title: "Yusen Zhang"
 author: "Yusen Zhang"
-description: "Recording research, design, and life"
+# description: "Recording research, design, and life"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
