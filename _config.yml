@@ -19,9 +19,9 @@ show_minimal: false        # Keep normal layout
 
 # External links (shown at the top right)
 external:
-  - {title: Email, icon: envelope, url: "mailto:yusen@example.com"}
-  - {title: Github, icon: github, url: "https://github.com/yusenzhang"}  # updated link
-  - {title: Subscribe, icon: rss, url: "/feed.xml"}
+  - {title: Email, icon: envelope, url: "mailto:2783477z@student.gla.ac.uk"}
+#   - {title: Github, icon: github, url: "https://github.com/yusenzhang"}  # updated link
+#   - {title: Subscribe, icon: rss, url: "/feed.xml"}
 
 # Comments (currently disabled, you can enable later)
 comments:
